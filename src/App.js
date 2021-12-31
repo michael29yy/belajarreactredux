@@ -1,9 +1,10 @@
-import { ListKaryawan } from "./components";
+//import { ListKaryawan } from "./components";
+import HalamanKaryawan from "./components/Halaman/HalamanKaryawan/HalamanKaryawan";
 
 function App() {
   return (
     <div className="">
-      <ListKaryawan/>
+      <HalamanKaryawan/>
     </div>
   );
 }

@@ -1,3 +1,3 @@
-import ListKaryawan from './Karyawan';
+import ListKaryawan from './ListKaryawan';
 
 export {ListKaryawan};
