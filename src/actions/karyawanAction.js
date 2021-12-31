@@ -23,7 +23,6 @@ export const getListKaryawan = () => {
             timeout: 6000
         }).then((response) => {
             //berhasil get
-            console.log(response.data);
             dispatch({
                 type: GET_LIST_KARYAWAN,
                 payload: {
