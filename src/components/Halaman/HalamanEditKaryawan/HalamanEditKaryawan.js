@@ -2,19 +2,18 @@ import React from 'react'
 import { Layout } from 'antd'
 import Header from '../../Header/Header'
 import Footer from '../../Footer/Footer'
-import { ListKaryawan } from '../..'
+import { EditKaryawan } from '../..'
 
-function HalamanKaryawan() {
-
+const HalamanEditKaryawan = () => {
     return (
         <div>
             <Layout>
                 <Header />
-                <ListKaryawan />
+                <EditKaryawan />
                 <Footer />
             </Layout>
         </div>
     )
 }
 
-export default HalamanKaryawan
+export default HalamanEditKaryawan

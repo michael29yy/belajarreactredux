@@ -2,8 +2,11 @@
   background: #4dacfa;
 }
 
-.konten{
-  background: #fff;
-  padding: 20px 20px 20px 20px;
-  margin-top: 64px;
+.ant-table-title{
+  text-align: center;
+  background-color: #e6f7ff;
+}
+
+.ant-table-cell-row-hover {
+  background: #e6f7ff !important;
 }

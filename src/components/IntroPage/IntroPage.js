@@ -55,6 +55,18 @@ const IntroPage = ({toggleSteps, onExit, stepsEnabled}) => {
             intro: "Ini Delete",
         },
         {
+            element: ".itambah",
+            intro: "Ini Tambah Data",
+        },
+        {
+            element: ".ibutton1",
+            intro: "Ini Button 1",
+        },
+        {
+            element: ".ibutton2",
+            intro: "Ini Button 2",
+        },
+        {
             element: ".ibantu",
             intro: "Klik untuk melihat bantuan!",
             position: 'right'
